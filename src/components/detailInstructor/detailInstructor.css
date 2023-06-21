@@ -1,0 +1,10 @@
+
+.instructor-img {
+    border: 5px solid var(--main-color);
+    padding: 5px;
+    border-radius: 50%;
+  }
+  .instructor-img img {
+    border-radius: 50%;
+  }
+  

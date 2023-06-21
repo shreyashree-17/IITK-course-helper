@@ -1,24 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { useState } from 'react';
+import Home from './pages/home/Home';
+import Submit from './pages/Submit';
+import Courses from './pages/courses/Courses';
+import Error from './pages/Error';
+import SharedLayout from './pages/SharedLayout';
+import SingleCourse from './pages/singlecourse/SingleCourse';
+import Dashboard from './pages/Dashboard';
+import Login from './pages/login/Login';
+import ProtectedRoute from './pages/ProtectedRoute';
+import SharedCoursesLayout from './pages/SharedCoursesLayout/SharedCoursesLayout'
+import SignUp from './pages/SignUp/SignUp';
 
 function App() {
+  const [user, setUser] = useState(null);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<SharedLayout />}>
+          <Route index element={<Home />} />
+          <Route path='submit' element={<Submit />} />
+
+          <Route path='courses' element={<SharedCoursesLayout />}>
+            <Route index element={< Courses />} />
+            <Route path=':courseId' element={<SingleCourse />} />
+          </Route>
+
+          <Route path='login' element={<Login setUser={setUser}></Login>} />
+          <Route path='signup' element={<SignUp setUser={setUser}></SignUp>} />
+          <Route
+            path='dashboard'
+            element={
+              <ProtectedRoute user={user}>
+                <Dashboard user={user} />
+              </ProtectedRoute>
+            }
+          />
+          <Route path='*' element={<Error />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

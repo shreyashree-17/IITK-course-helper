@@ -1,0 +1,9 @@
+.courses-heading{
+   
+    font-size: min(9vw,4rem);
+    text-align: center;
+    /* text-shadow: 2px 2px 5px #3c5070; */
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    padding-top: 2rem;
+
+}

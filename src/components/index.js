@@ -1,0 +1,10 @@
+export { default as Navbar } from "./navbar/Navbar";
+export { default as Stars } from "./stars/Stars";
+export { default as Footer } from "./footer/footer";
+export { default as DetailAside } from "./detailAside/DetailAside";
+export { default as DetailHeader } from "./detailHeader/DetailHeader";
+export { default as DetailTabs } from "./detailTabs/DetailTabs";
+export { default as DetailCurriculum } from "./detailCurriculum/detailCurriculum";
+export { default as DetailDescription } from "./detailDescription/DetailDescription";
+export { default as DetailInstructor } from "./detailInstructor/DetailInstructor";
+export { default as DetailReviews } from "./detailReviews/DetailReviews";
