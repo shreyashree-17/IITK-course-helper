@@ -1,0 +1,29 @@
+.accordion-body button {
+  color: var(--black-70);
+  transition: color 0.2s ease;
+}
+.accordion-body button:hover {
+  color: var(--main-color);
+}
+.course-curriculum .accordion-item {
+  border-color: var(--border-color-2);
+  background-color: transparent;
+}
+.course-curriculum .accordion-button:focus {
+  box-shadow: none;
+}
+
+.course-curriculum .accordion-button:not(.collapsed) {
+  font-weight: 600;
+  box-shadow: none;
+  background: transparent;
+  color: var(--black-70);
+}
+.course-curriculum .accordion-button {
+  background-color: transparent;
+  color: var(--black-90);
+  font-weight: 300;
+}
+.course-curriculum .accordion-body {
+  border-top: 1px solid var(--border-color-1);
+}

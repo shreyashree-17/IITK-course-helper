@@ -1,0 +1,37 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    height: 6rem;
+    right: 0;
+    width: 100%;
+    justify-content: space-around;
+    font-size: larger;
+    box-shadow: .2rem .2rem .5rem black;
+  }
+  
+  .nav--logo{
+    width: 40%;
+    max-width: 350px;
+
+  }
+  
+  .navigators{
+    width: 40%;
+    font-size: min(2.5vw, 1.3rem);
+    display: flex;
+    justify-content: space-around;
+    /* background-color: #222; */
+    gap: 1rem;
+  }
+  
+  .link {
+    color: var(--grey-500);
+  }
+  
+  .active {
+    color: var(--black);
+  }
+  
+  .link{
+    text-decoration: none;
+  }

@@ -1,0 +1,36 @@
+.footer{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 15%;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+    justify-items: center;
+    z-index: +2;
+}
+
+.linkf{
+    white-space: nowrap;
+    width: 30%;
+    top: 50%;
+    /* background-color: blueviolet; */
+    text-align: center;
+    font-size: 16px;
+}
+
+.aboutF{
+    width: 67%;
+    color: rgb(6, 6, 93);
+}
+
+.footers{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: #222; */
+    gap: 1rem;
+  }
