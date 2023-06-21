@@ -1,9 +1,11 @@
 import { NavLink } from 'react-router-dom';
 import './Navbar.css'
+import logo from './logoc.png'
+
 const Navbar = () => {
   return (
       <nav className='navbar'>
-        <img src="../logoc.png" className="nav--logo"/>
+        <img src={logo} className="nav--logo"/>
         <div className="navigators">
           <NavLink
             to='/'
