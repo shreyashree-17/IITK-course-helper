@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/IITK-course-helper/static/css/main.923f4d03.css",
+    "main.js": "/IITK-course-helper/static/js/main.b1352524.js",
+    "static/media/iitk-cover.jpeg": "/IITK-course-helper/static/media/iitk-cover.e025c283cc2125fddd87.jpeg",
+    "static/media/iitk-cover-mobile.jpeg": "/IITK-course-helper/static/media/iitk-cover-mobile.beeb22d751f9673c0024.jpeg",
+    "static/media/2.jpg": "/IITK-course-helper/static/media/2.fead681fa286526f4957.jpg",
+    "static/media/4.jpg": "/IITK-course-helper/static/media/4.23547a2799e8b29a5060.jpg",
+    "static/media/3.jpg": "/IITK-course-helper/static/media/3.21171678524e9aca6087.jpg",
+    "static/media/1.jpg": "/IITK-course-helper/static/media/1.111e25af82bd835b35ce.jpg",
+    "static/media/person-1.png": "/IITK-course-helper/static/media/person-1.576e559d1e23c51c8273.png",
+    "static/media/person-2.png": "/IITK-course-helper/static/media/person-2.0e2692b3ace83324588a.png",
+    "static/media/person-4.png": "/IITK-course-helper/static/media/person-4.1949495f90b0c6443f01.png",
+    "static/media/person-3.png": "/IITK-course-helper/static/media/person-3.93a9c20a180b8ca20427.png",
+    "index.html": "/IITK-course-helper/index.html",
+    "main.923f4d03.css.map": "/IITK-course-helper/static/css/main.923f4d03.css.map",
+    "main.b1352524.js.map": "/IITK-course-helper/static/js/main.b1352524.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.923f4d03.css",
+    "static/js/main.b1352524.js"
+  ]
+}
