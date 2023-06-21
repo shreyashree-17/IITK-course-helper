@@ -1,5 +1,6 @@
 
 import {
+    web1,
     person1,
     person2,
     person3,
@@ -20,7 +21,7 @@ import {
       price_old: "Credits",
       price_new: "4",
       price_discount: "",
-      course_img: "../images/1.png",
+      course_img: web1,
       features: [
         {
           icon: "fa fa-tv",

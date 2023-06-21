@@ -1,4 +1,9 @@
-
+import {
+  web1,
+  web2,
+  web3,
+  web4,
+} from "./dataSC/images";
 
 const courses = [
   {
@@ -9,8 +14,7 @@ const courses = [
     rating: 3,
     description:"Lorem ipsum dolor sit amet. Sed enim tempore et consequuntur quia qui possimus eaque in labore",
     numOfReview: "158",
-    image:
-    "../images/1.png",
+    image:web1,
   },
   {
     id: 'recEHmzvupvT8ZONH',
@@ -21,8 +25,7 @@ const courses = [
     rating: 4,
     description:"Lorem ipsum dolor sit amet. Sed enim tempore et consequuntur quia qui possimus eaque in labore",
     numOfReview: 200,
-    image:
-    "../images/2.png",
+    image:web2,
   },
   {
     id: 'rec5NBwZ5zCD9nfF0',
@@ -33,8 +36,7 @@ const courses = [
     rating: 3,
     description:"Lorem ipsum dolor sit amet. Sed enim tempore et consequuntur quia qui possimus eaque in labore",
     numOfReview: 208,
-    image:
-    "../images/3.png",
+    image:web3,
   },
   {
     id: 'recd1jIVIEChmiwhe',
@@ -45,8 +47,7 @@ const courses = [
     rating: 3,
     description:"Lorem ipsum dolor sit amet. Sed enim tempore et consequuntur quia qui possimus eaque in labore",
     numOfReview: 207,
-    image:
-    "../images/4.png",
+    image:web4,
   },
   {
     id: 'recoM2MyHJGHLVi5l',
@@ -56,8 +57,7 @@ const courses = [
     rating: 3.4,
     description:"Lorem ipsum dolor sit amet. Sed enim tempore et consequuntur quia qui possimus eaque in labore",
     numOfReview: 208,
-    image:
-    "../images/4.png",
+    image:web4,
   },
 ];
 
