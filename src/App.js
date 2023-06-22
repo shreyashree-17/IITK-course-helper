@@ -11,6 +11,7 @@ import Login from './pages/login/Login';
 import ProtectedRoute from './pages/ProtectedRoute';
 import SharedCoursesLayout from './pages/SharedCoursesLayout/SharedCoursesLayout'
 import SignUp from './pages/SignUp/SignUp';
+import UnderReview from './pages/underReview';
 
 function App() {
   const [user, setUser] = useState(null);
@@ -37,6 +38,7 @@ function App() {
               </ProtectedRoute>
             }
           />
+          <Route path='underreview' element={<UnderReview></UnderReview>} />
           <Route path='*' element={<Error />} />
         </Route>
       </Routes>
