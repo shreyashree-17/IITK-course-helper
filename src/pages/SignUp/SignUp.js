@@ -34,6 +34,7 @@ const SignUp = ({ setUser }) => {
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                   placeholder="Full Name"
+                  required
                 />
                 </div>
                 <div className="form-group mb-3">
@@ -44,6 +45,7 @@ const SignUp = ({ setUser }) => {
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     placeholder="Email"
+                    required
                   />
                 </div>
                 <div className="form-group mb-3">
@@ -51,6 +53,7 @@ const SignUp = ({ setUser }) => {
                     type="password"
                     placeholder="Password"
                     className="form-control"
+                    required
                   />
                 </div>
                 <button type="submit" className="btn theme-btn w-100 my-4">

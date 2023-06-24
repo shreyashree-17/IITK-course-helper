@@ -8,8 +8,8 @@ const Submit = () => {
   const handleSubmit = () => navigate('/underreview');
 
 
-  const [file,setFile] = React.useState()
-  const [isFilePicked, setIsFilePicked] = React.useState(false);
+  const [,setFile] = React.useState()
+  const [, setIsFilePicked] = React.useState(false);
   const uploadFile = async (e) =>{
     console.log(e.target.files[0])
     setFile(e.target.files[0])
@@ -25,6 +25,7 @@ const Submit = () => {
                   className='form-input form-control'
                   id='name'
                   placeholder="Subject"
+                  required
                 />
                 </div>
                 <div className="form-group mb-3">
@@ -33,6 +34,7 @@ const Submit = () => {
                     className='form-input descri form-control'
                     id='email'
                     placeholder="Description"
+                    required
                   />
                 </div>
                 <div className="form-group mb-3">
@@ -40,10 +42,11 @@ const Submit = () => {
                 accept=".pdf" 
                 type="file" 
                 onChange={uploadFile}
-                placeholder="Upload pdf file"/>
+                placeholder="Upload pdf file"
+                required/>
                 </div>
                 <button type="submit" className="btn theme-btn w-100 my-4">
-                  Sign Up
+                  Submit
                 </button>
                 <p className="text-center">
                 Already have an account?<Link to="/login"> Log In</Link>

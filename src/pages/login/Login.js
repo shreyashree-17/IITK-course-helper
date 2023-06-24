@@ -10,7 +10,7 @@ const Login = ({ setUser }) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (!email || !password) return;
+    if (!email) return;
     setUser({ name : email });
     navigate('/dashboard');
   };
@@ -46,7 +46,7 @@ const Login = ({ setUser }) => {
                       className="form-control"
                       value={password}
                       onChange={(e) => setPass(e.target.value)}
-                    />
+                     required/>
                   </div>
                   <button type="submit" className=" btn btn-block theme-btn w-100 my-4">
                     Log In
