@@ -12,7 +12,9 @@ const DetailTabs = () => {
           type="button"
           role="tab"
           aria-controls="course-curriculum"
-          aria-selected="true"
+          aria-selected= {true}
+        
+
         >
           curriculum
         </button>
@@ -24,7 +26,8 @@ const DetailTabs = () => {
           type="button"
           role="tab"
           aria-controls="course-description"
-          aria-selected="false"
+          aria-selected={false}
+        
         >
           description
         </button>
@@ -36,7 +39,8 @@ const DetailTabs = () => {
           type="button"
           role="tab"
           aria-controls="course-instructor"
-          aria-selected="false"
+          aria-selected={false}
+        
         >
           instructor
         </button>
@@ -48,7 +52,8 @@ const DetailTabs = () => {
           type="button"
           role="tab"
           aria-controls="course-reviews"
-          aria-selected="false"
+          aria-selected={false}
+        
         >
           reviews
         </button>

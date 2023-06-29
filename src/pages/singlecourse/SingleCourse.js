@@ -62,7 +62,7 @@ const SingleCourse = () => {
         </div>
       {/* <img src={image} alt={name} />
       <h5>{name}</h5> */}
-      <Link to='/courses' className='btn'>Submit</Link>
+      <Link to='/courses' className='btn'>Back to Courses</Link>
       <div className='clear'></div>
     </section>
    
