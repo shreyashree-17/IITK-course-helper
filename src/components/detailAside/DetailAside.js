@@ -16,7 +16,7 @@ const DetailAside = ({
           <img
             src={course_img}
             alt={title}
-            className="rounded-3"
+            className="rounded-3 scimg"
           />
         </div>
         <div className="header-info">

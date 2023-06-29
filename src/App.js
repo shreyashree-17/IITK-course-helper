@@ -12,6 +12,7 @@ import ProtectedRoute from './pages/ProtectedRoute';
 import SharedCoursesLayout from './pages/SharedCoursesLayout/SharedCoursesLayout'
 import SignUp from './pages/SignUp/SignUp';
 import UnderReview from './pages/underReview';
+import SubmitReviews from './pages/SubmitReviews';
 
 function App() {
   const [user, setUser] = useState(null);
@@ -22,6 +23,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path='IITK-course-helper/' element={<Home />} />
           <Route path='submit' element={<Submit />} />
+          <Route path='/reviewsubmit' element={<SubmitReviews />} />
 
           <Route path='courses' element={<SharedCoursesLayout />}>
             <Route index element={< Courses />} />

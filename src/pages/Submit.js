@@ -30,9 +30,9 @@ const Submit = () => {
                 </div>
                 <div className="form-group mb-3">
                 <input
-                    type='email'
+                    type='text'
                     className='form-input descri form-control'
-                    id='email'
+                    id='decription'
                     placeholder="Description"
                     required
                   />

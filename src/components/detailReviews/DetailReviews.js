@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "./detailReviews.css";
 
@@ -15,7 +16,7 @@ const DetailReviews = ({ coments, rating }) => {
       <div className="course-reviews">
         <div className="flex-row">
           <h4 className="mb-4">Students Feedback</h4>
-          <button className="btn">Submit Review</button>
+          <Link to="/reviewsubmit" className="btn"> Submit Review</Link>
         </div>
         <div className="reviews-star row align-items-center">
           <div className="col-md-4">
