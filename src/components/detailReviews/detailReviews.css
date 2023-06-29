@@ -16,3 +16,17 @@
   min-width: 30px;
   text-align: center;
 }
+
+.comment-text{
+  padding-left: 6rem;
+}
+
+.flex-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.btn{
+  height: 40px;
+}

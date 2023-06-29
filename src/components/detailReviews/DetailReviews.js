@@ -13,7 +13,10 @@ const DetailReviews = ({ coments, rating }) => {
       aria-labelledby="course-reviews-tab"
     >
       <div className="course-reviews">
-        <h4 className="mb-4">Students Feedback</h4>
+        <div className="flex-row">
+          <h4 className="mb-4">Students Feedback</h4>
+          <button className="btn">Submit Review</button>
+        </div>
         <div className="reviews-star row align-items-center">
           <div className="col-md-4">
             <div className="reviews-rating text-center">
