@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/IITK-course-helper/static/css/main.78b42fc1.css",
-    "main.js": "/IITK-course-helper/static/js/main.dbafe130.js",
+    "main.js": "/IITK-course-helper/static/js/main.d9f26f81.js",
     "static/media/1.png": "/IITK-course-helper/static/media/1.9cf81d6303e4f909d06d.png",
     "static/media/4.png": "/IITK-course-helper/static/media/4.eec4993624dcf9563ba0.png",
     "static/media/3.png": "/IITK-course-helper/static/media/3.789cc8b35bad59690d5f.png",
@@ -15,10 +15,10 @@
     "static/media/logoc.png": "/IITK-course-helper/static/media/logoc.985c91c8f23d70998d02.png",
     "index.html": "/IITK-course-helper/index.html",
     "main.78b42fc1.css.map": "/IITK-course-helper/static/css/main.78b42fc1.css.map",
-    "main.dbafe130.js.map": "/IITK-course-helper/static/js/main.dbafe130.js.map"
+    "main.d9f26f81.js.map": "/IITK-course-helper/static/js/main.d9f26f81.js.map"
   },
   "entrypoints": [
     "static/css/main.78b42fc1.css",
-    "static/js/main.dbafe130.js"
+    "static/js/main.d9f26f81.js"
   ]
 }
